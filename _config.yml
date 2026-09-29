@@ -1,0 +1,38 @@
+title: "Vaibhav Nagar"
+description: "Machine Learning and Generative AI Engineer focused on LLM-powered applications, deep learning, and multimodal GeoAI foundation models."
+url: "https://vaibhav170216.github.io"
+baseurl: ""
+
+name: "Vaibhav Nagar"
+author: "Vaibhav Nagar"
+email: "vaibnag11@gmail.com"
+subtitle: "Machine Learning & Generative AI Engineer"
+location: "Delhi, India"
+cover: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=2000&q=85"
+
+remote_theme: dirkfabisch/mediator
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+social:
+  - icon: envelope
+    url: "mailto:vaibnag11@gmail.com"
+    desc: "Email Vaibhav"
+  - icon: github
+    url: "https://github.com/Vaibhav170216"
+    desc: "GitHub"
+  - icon: linkedin
+    url: "https://www.linkedin.com/in/vaibhav-nagar-a81176191"
+    desc: "LinkedIn"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -1,0 +1,139 @@
+---
+layout: default
+title: Vaibhav Nagar
+excerpt: Machine learning and generative AI engineer interested in multimodal GeoAI foundation models.
+---
+
+<div class="teaserimage">
+  <div class="teaserimage-image" style="background-image: url('{{ site.cover }}')" role="img" aria-label="Earth viewed from orbit">Satellite image</div>
+</div>
+
+<header class="blog-header profile-header">
+  <h1 class="blog-title">{{ site.title }}</h1>
+  <h2 class="blog-description">{{ site.subtitle }}</h2>
+  <p class="profile-location">{{ site.location }}</p>
+  <div class="custom-links" aria-label="Contact and profile links">
+    {% for social in site.social %}
+      <a class="icon-{{ social.icon }}" href="{{ social.url }}" title="{{ social.desc }}" aria-label="{{ social.desc }}">
+        <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
+      </a>{% unless forloop.last %}<span class="social-separator" aria-hidden="true">·</span>{% endunless %}
+    {% endfor %}
+  </div>
+</header>
+
+<main class="content portfolio-content" role="main">
+  <h5 class="index-headline"><span>About me</span></h5>
+  <article class="portfolio-article">
+    <section class="post-excerpt portfolio-copy">
+      <p>Hi, I’m Vaibhav. I’m a freelance machine learning and generative AI engineer, building LLM-powered applications and deep learning models. I have an M.Tech in Remote Sensing and GIS from NIT Warangal and a B.Tech in Geo-Informatics Engineering.</p>
+      <p>I’m interested in research on multimodal GeoAI foundation models.</p>
+    </section>
+  </article>
+
+  <h5 class="index-headline"><span>Selected projects</span></h5>
+  <article class="portfolio-article project-entry">
+    <header class="post-header">
+      <h2 class="post-title"><a href="https://github.com/Vaibhav170216/geoai-research-assistant" target="_blank" rel="noreferrer">GeoAI Research Assistant</a></h2>
+      <p class="entry-type">Hybrid RAG · GeoAI</p>
+    </header>
+    <section class="post-excerpt portfolio-copy">
+      <p>Built a hybrid RAG system over 1,000 arXiv papers on GeoAI and Earth observation, combining SQLite keyword search with Sentence Transformers embeddings through Reciprocal Rank Fusion. The RAGAS evaluation achieved 0.83 Answer Relevancy and 0.86 Context Precision.</p>
+      <p class="entry-detail">Docker Compose · PostgreSQL request logging · Grafana monitoring</p>
+    </section>
+  </article>
+
+  <article class="portfolio-article project-entry">
+    <header class="post-header">
+      <h2 class="post-title">Deep Learning for Land Use and Land Cover Classification</h2>
+      <p class="entry-type">Research · Sentinel-2</p>
+    </header>
+    <section class="post-excerpt portfolio-copy">
+      <p>Compared 1D-CNN architectures including ResNet, DenseNet, and ResNeXt on Sentinel-2 imagery prepared with Google Earth Engine. ResNeXt achieved a 90% F1-score, outperforming the baselines by 9%.</p>
+      <p class="entry-detail">Conference paper · ICGCE 2024, IIT Roorkee</p>
+    </section>
+  </article>
+
+  <article class="portfolio-article project-entry">
+    <header class="post-header">
+      <h2 class="post-title">Transformers and Vision Transformer from Scratch</h2>
+      <p class="entry-type">Deep learning</p>
+    </header>
+    <section class="post-excerpt portfolio-copy">
+      <p>Implemented transformer and ViT architectures in NumPy and PyTorch, including multi-head self-attention, positional encoding, and image patch embeddings.</p>
+      <p class="entry-detail"><a href="https://github.com/Vaibhav170216" target="_blank" rel="noreferrer">View GitHub profile <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+    </section>
+  </article>
+
+  <h5 class="index-headline"><span>Résumé</span></h5>
+  <section class="resume-section">
+    <h2 class="resume-heading">Work experience</h2>
+    <article class="resume-entry">
+      <p class="resume-date">April 2025 – Present · Remote</p>
+      <div>
+        <h3>Generative AI Engineer <span>Freelance</span></h3>
+        <ul>
+          <li>Implemented features, generated tests, and refactored code across GitHub repositories through multi-turn LLM coding sessions in Linux-based tmux workflows.</li>
+          <li>Assessed agentic coding workflows, evaluating tool calls, multi-step reasoning, and generated code for correctness and execution quality.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="resume-entry">
+      <p class="resume-date">June 2025 – July 2025 · Remote</p>
+      <div>
+        <h3>LLM Prompt Engineer <span>Turing</span></h3>
+        <ul>
+          <li>Optimized prompts using RLHF, evaluating 500+ prompt-response pairs for quantitative aptitude on charts from research papers.</li>
+          <li>Developed Chain of Thought prompting frameworks to improve multi-step reasoning accuracy on complex problems.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <section class="resume-section">
+    <h2 class="resume-heading">Publication</h2>
+    <article class="resume-entry">
+      <p class="resume-date">ICGCE 2024 · IIT Roorkee</p>
+      <div>
+        <h3>Comparative Study of Deep Learning Algorithms for Land Use Land Cover Classification</h3>
+        <p>Conference paper on deep learning models for land use and land cover classification.</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="resume-section">
+    <h2 class="resume-heading">Education</h2>
+    <article class="resume-entry">
+      <p class="resume-date">August 2022 – June 2024</p>
+      <div>
+        <h3>M.Tech, Remote Sensing and GIS</h3>
+        <p>National Institute of Technology Warangal · CGPA 8.1/10</p>
+      </div>
+    </article>
+    <article class="resume-entry">
+      <p class="resume-date">July 2016 – August 2020</p>
+      <div>
+        <h3>B.Tech, Geo-Informatics Engineering</h3>
+        <p>University of Petroleum and Energy Studies</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="resume-section">
+    <h2 class="resume-heading">Technical skills</h2>
+    <dl class="skills-list">
+      <div><dt>Languages &amp; frameworks</dt><dd>Python, SQL, PyTorch, TensorFlow, Hugging Face Transformers, Streamlit</dd></div>
+      <div><dt>GenAI &amp; LLMs</dt><dd>RAG, hybrid search, vector embeddings, RAGAS, prompt engineering, Chain of Thought, agentic workflows</dd></div>
+      <div><dt>ML &amp; MLOps</dt><dd>Docker, Git, MLflow, PostgreSQL, Grafana</dd></div>
+    </dl>
+  </section>
+
+  <section class="resume-section">
+    <h2 class="resume-heading">Certifications</h2>
+    <ul class="certification-list">
+      <li>LLM Zoomcamp · DataTalks.Club, 2026</li>
+      <li>Training and Fine-tuning Large Language Models · Weights &amp; Biases, 2024</li>
+      <li>Machine Learning A to Z · Udemy, 2023</li>
+      <li>AWS Certified Cloud Practitioner CLF-C02 · Udemy, 2023</li>
+    </ul>
+  </section>
+</main>

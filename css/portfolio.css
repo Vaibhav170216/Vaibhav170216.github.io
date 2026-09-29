@@ -1,0 +1,155 @@
+.profile-header .blog-description {
+  margin-bottom: 0;
+}
+
+.profile-location {
+  margin: 2px 0 18px;
+  color: #777;
+  text-align: center;
+  font-size: 14px;
+}
+
+.profile-header .custom-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 42px;
+  font-size: 20px;
+}
+
+.profile-header .custom-links a {
+  color: #999;
+}
+
+.profile-header .custom-links a:hover {
+  color: #333;
+}
+
+.social-separator {
+  color: #ccc;
+  font-size: 16px;
+}
+
+.portfolio-content .index-headline:first-child {
+  border-top: 0;
+}
+
+.portfolio-content .portfolio-article {
+  padding: 22px 0;
+}
+
+.portfolio-content .post-excerpt.portfolio-copy {
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.portfolio-copy p {
+  margin: 0 0 14px;
+}
+
+.portfolio-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-content .project-entry .post-title {
+  font-size: 25px;
+}
+
+.entry-type,
+.entry-detail {
+  margin: 8px 0 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.entry-detail a {
+  color: #777;
+}
+
+.resume-section {
+  padding: 20px 0 6px;
+  border-bottom: 1px solid #f2f2f0;
+}
+
+.resume-heading {
+  margin: 0 0 8px;
+  font-size: 21px;
+}
+
+.resume-entry,
+.skills-list > div {
+  display: grid;
+  grid-template-columns: 155px minmax(0, 1fr);
+  gap: 18px;
+  padding: 14px 0;
+  border-top: 1px solid #eee;
+}
+
+.resume-date {
+  margin: 2px 0 0;
+  color: #999;
+  font-size: 13px;
+}
+
+.resume-entry h3 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.resume-entry h3 span {
+  color: #888;
+  font-weight: 400;
+}
+
+.resume-entry p,
+.resume-entry ul,
+.skills-list dd,
+.certification-list {
+  margin: 6px 0 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.resume-entry ul {
+  padding-left: 18px;
+}
+
+.resume-entry li + li {
+  margin-top: 5px;
+}
+
+.skills-list {
+  margin: 0;
+}
+
+.skills-list dt {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.skills-list dd {
+  margin: 0;
+}
+
+.certification-list {
+  padding-left: 20px;
+}
+
+.certification-list li + li {
+  margin-top: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume-entry,
+  .skills-list > div {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+
+  .profile-header .custom-links {
+    margin-bottom: 32px;
+  }
+}
