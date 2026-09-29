@@ -1,3 +1,19 @@
+.logo-readium.vn-logo {
+  display: grid;
+  place-items: center;
+  background: #286654;
+  color: #fff;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.logo-readium.vn-logo:hover {
+  background: #1e5042;
+  color: #fff;
+}
+
 .profile-header .blog-description {
   margin-bottom: 0;
 }
